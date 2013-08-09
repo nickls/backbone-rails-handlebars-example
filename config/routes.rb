@@ -1,7 +1,6 @@
-BackboneRailsHandlebarsExample::Application.routes.draw do
-  #get "tasks/index"
-  
-    resources :tasks
+BackboneRailsHandlebarsExample::Application.routes.draw do  
+  resources :tasks
+  root to: redirect('/tasks')
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
