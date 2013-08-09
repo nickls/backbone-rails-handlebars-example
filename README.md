@@ -16,4 +16,11 @@ Add:
 $ bundle install
 $ rails generate backbone:install
 $ rails generate backbone:scaffold task
+$ rails generate
+```
+
+
+```sh
+$ rails generate controller tasks
+$ rails generate model Task title:string description:string complete:bool
 ```

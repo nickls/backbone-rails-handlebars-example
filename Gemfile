@@ -33,7 +33,7 @@ group :doc do
 end
 
 gem 'backbone-on-rails'
-
+gem 'haml'
 
 group :assets do
   gem 'handlebars_assets'
@@ -47,7 +47,7 @@ end
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano', group: :development
+gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
