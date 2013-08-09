@@ -33,12 +33,11 @@ group :doc do
 end
 
 gem 'backbone-on-rails'
-gem 'haml'
+gem "haml-rails"
 
-group :assets do
-  gem 'handlebars_assets'
-  gem 'less-rails-bootstrap'
-end
+gem 'handlebars_assets'
+gem 'therubyracer'
+gem 'less-rails-bootstrap'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
