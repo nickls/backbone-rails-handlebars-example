@@ -20,11 +20,11 @@ $ rails new .
 ```
 
 Add:
-- [x] gem 'backbone-on-rails'
-- [x] gem 'handlebars_assets'
-- [x] gem 'less-rails-bootstrap'
-- [x] gem "haml-rails"
-
+- [ ] gem 'backbone-on-rails'
+- [ ] gem 'handlebars_assets'
+- [ ] gem 'therubyracer'
+- [ ] gem 'less-rails-bootstrap'
+- [ ] gem "haml-rails"
 
 ###### Setting up our backbone installation
 
