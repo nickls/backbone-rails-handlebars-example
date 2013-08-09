@@ -32,6 +32,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'backbone-on-rails'
+
+
+group :assets do
+  gem 'handlebars_assets'
+  gem 'less-rails-bootstrap'
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
