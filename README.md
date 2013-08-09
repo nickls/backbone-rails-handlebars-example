@@ -15,5 +15,5 @@ Add:
 ```sh
 $ bundle install
 $ rails generate backbone:install
-$ 
+$ rails generate backbone:scaffold task
 ```

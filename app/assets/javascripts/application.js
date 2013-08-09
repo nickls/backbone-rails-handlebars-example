@@ -15,6 +15,8 @@
 //= require turbolinks
 //= require underscore
 //= require backbone
+//= require twitter/bootstrap
+//= require handlebars
 //= require backbone_rails_handlebars_example
 //= require_tree ../templates
 //= require_tree ./models
