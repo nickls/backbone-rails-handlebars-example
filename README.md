@@ -34,4 +34,7 @@ Setting up the DB
 ```sh
 $ rake db:create
 $ rake db:migrate RAILS_ENV=development
+$ rake db:seed
 ```
+
+Had to do db:seed after create as I forgot to create seeds.rb

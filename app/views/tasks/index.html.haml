@@ -1,0 +1,16 @@
+.container
+  %h2 View - Tasks#index
+  %p Find me in app/views/tasks/index.html.haml
+
+  #backbone-tasks
+
+
+:javascript
+  $(function() {
+    window._rails_env = "#{Rails.env}";
+    var data = #{@tasks_json};
+
+    //Start Backbone only on task/index.
+    //We're also preloading data so the page is fast. Otherwise we would have to sync the backbone model and there would be a short delay while it hit the webserver.
+    BackboneRailsHandlebarsExample.initialize(data)
+  });

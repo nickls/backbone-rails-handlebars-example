@@ -4,7 +4,7 @@ window.BackboneRailsHandlebarsExample =
   Views: {}
   Routers: {}
   initialize: (data) ->
-    alert 'Hello from Backbone!'
+    #alert 'Hello from Backbone!'
 
     window.router = new BackboneRailsHandlebarsExample.Routers.Tasks(data)
 
@@ -14,5 +14,6 @@ window.BackboneRailsHandlebarsExample =
     settings = { pushState: pushState, hashChange: (!pushState ? true : false)};
     Backbone.history.start(settings);
 
-$(document).ready ->
-  BackboneRailsHandlebarsExample.initialize()
+# We can either init globally or just on pages that need/support it.
+# $(document).ready ->
+#   BackboneRailsHandlebarsExample.initialize()
