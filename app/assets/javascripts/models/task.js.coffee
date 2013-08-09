@@ -1,0 +1,1 @@
+class BackboneRailsHandlebarsExample.Models.Task extends Backbone.Model

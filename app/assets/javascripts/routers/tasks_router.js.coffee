@@ -1,0 +1,1 @@
+class BackboneRailsHandlebarsExample.Routers.Tasks extends Backbone.Router
